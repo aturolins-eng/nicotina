@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
   <style>
+    :root {
+  --card: #161616;
+}
     * {
       box-sizing: border-box;
     }
@@ -136,12 +139,41 @@
 .read-more img {
   margin-top: 16px;
   filter: grayscale(100%);
+}   
+ .card {
+  background: var(--card, #1a1a1a);
+  padding: 2.2rem;
+  border-radius: 18px;
+  margin-bottom: 2.5rem;
+}
+
+.card h2 {
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.links a:hover {
+  background: rgba(255,255,255,0.12);
+  transform: translateY(-2px);
 }
   </style>
 </head>
 
 <body>
-
 <main>
 </div>
   <!-- CAPA -->
@@ -354,15 +386,20 @@
     de alguém que ainda está
     tentando largar o cigarro.
   </p>
+  <div class="card">
+  <h2>Acompanhe AKIN</h2>
+  <div class="links">
+    <a href="https://open.spotify.com/artist/7uoQ0hVZkS6GoqAEBf34Eq" target="_blank">🟢 Spotify</a>
+    <a href="https://youtube.com/@akinlume" target="_blank">🔴 YouTube</a>
+    <a href="https://www.instagram.com/akinlume" target="_blank">📸 Instagram</a>
+    <a href="https://www.tiktok.com/@akinlume" target="_blank">🎵 TikTok</a>
+  </div>
+</div>
+  </section>
 
-  <!-- FOOTER -->
   <footer>
-    <a href="https://www.instagram.com/akinlume" target="_blank">Instagram</a>
-    <a href="https://www.tiktok.com/@akinlume" target="_blank">TikTok</a>
-    <a href="https://youtube.com/@akinlume" target="_blank">YouTube</a>
+    <p>© 2025 — Akin | “FOME”</p>
   </footer>
-
-</main>
 
 </body>
 </html>
