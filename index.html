@@ -211,13 +211,18 @@
   color: #0b0b0b;
 }
 
-.hero-cta a.secondary {
-  border: 1px solid #2a2a2a;
-  color: #e6e6e6;
-}
-
 .hero-cta a:hover {
   transform: translateY(-2px);
+  
+}.hero-cta a.spotify {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-cta a.spotify img {
+  width: 20px;
+  height: auto;
 }
   </style>
 </head>
@@ -232,14 +237,19 @@
     Um disco sobre apego, recaída e decisões adiadas.
   </p>
 
-  <div class="hero-cta">
-    <a href="https://open.spotify.com/artist/7uoQ0hVZkS6GoqAEBf34Eq" target="_blank" class="primary">
-      ▶ Ouça no Spotify
-    </a>
-    <a href="#" class="secondary">
-      + Pré-salvar
-    </a>
-  </div>
+<div class="hero-cta">
+  <a href="https://open.spotify.com/artist/7uoQ0hVZkS6GoqAEBf34Eq" 
+     target="_blank" 
+     class="primary spotify">
+     
+    <img src="spotify-logo.png" alt="Ouvir no Spotify">
+    <span>Ouça no Spotify</span>
+  </a>
+
+  <a href="#" class="secondary">
+    Pré-salvar
+  </a>
+</div>
 </section>
 </div>
   <!-- CAPA -->
