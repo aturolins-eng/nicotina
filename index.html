@@ -170,16 +170,82 @@
   background: rgba(255,255,255,0.12);
   transform: translateY(-2px);
 }
+    .hero {
+  margin-bottom: 120px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.hero-sub {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 24px;
+}
+
+.hero-line {
+  max-width: 520px;
+  font-size: 1rem;
+  color: #cfcfcf;
+  margin-bottom: 40px;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-cta a {
+  text-decoration: none;
+  padding: 14px 22px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+.hero-cta a.primary {
+  background: #e6e6e6;
+  color: #0b0b0b;
+}
+
+.hero-cta a.secondary {
+  border: 1px solid #2a2a2a;
+  color: #e6e6e6;
+}
+
+.hero-cta a:hover {
+  transform: translateY(-2px);
+}
   </style>
 </head>
 
 <body>
 <main>
+  <section class="hero">
+  <h1>NICOTINA</h1>
+  <p class="hero-sub">álbum disponível em 01/01</p>
+
+  <p class="hero-line">
+    Um disco sobre apego, recaída e decisões adiadas.
+  </p>
+
+  <div class="hero-cta">
+    <a href="https://open.spotify.com/artist/7uoQ0hVZkS6GoqAEBf34Eq" target="_blank" class="primary">
+      ▶ Ouça no Spotify
+    </a>
+    <a href="#" class="secondary">
+      + Pré-salvar
+    </a>
+  </div>
+</section>
 </div>
   <!-- CAPA -->
   <div class="cover">
-    <img src="capa-nicotina.png" alt="Capa do álbum Nicotina (como deveria ser)">
-  </div>
+  <img src="capa-nicotina.png" alt="Capa do álbum Nicotina" loading="lazy">
+</div>
 
   <!-- TÍTULO -->
   <h1>NICOTINA (como deveria ser)</h1>
