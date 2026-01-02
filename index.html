@@ -226,9 +226,17 @@
   height: auto;
 }
 
+  .track-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+}
     .track-links img {
-  width: 11px;
+  width: 12px;
+  max-width: none; /* ISSO é o pulo do gato */
   height: auto;
+  display: inline-block;
 }
   </style>
 </head>
@@ -351,8 +359,8 @@
 
   <!-- FAIXAS -->
   <section class="track">
-    <h3>1. tarde de domingo</h3>
-    
+  <h3>1. tarde de domingo</h3>
+
   <div class="track-player">
     <iframe 
       src="https://www.youtube.com/embed/ID_DO_VIDEO"
@@ -361,23 +369,25 @@
       allowfullscreen>
     </iframe>
   </div>
-    
-    <p>
-      Uma parede branca.
-      Um banco de praça.
-      O tempo que estica sem promessa de mudança.
-    </p>
-    <p>
-      Domingo aqui não é dia —
-      é estado emocional.
-      Amar até sobrar pouco de si.
-    </p>
-    
-      <div class="track-links">
-    <a href="https://open.spotify.com/track/40eS9Gj6EFRo3MCeG0irkm?si=RSHkTuczSbOnoYbF3PRO5Q" target="_blank" class="spotify">
+
+  <p>
+    Uma parede branca.
+    Um banco de praça.
+    O tempo que estica sem promessa de mudança.
+  </p>
+
+  <p>
+    Domingo aqui não é dia —
+    é estado emocional.
+    Amar até sobrar pouco de si.
+  </p>
+
+  <div class="track-links">
+    <a href="https://open.spotify.com/track/40eS9Gj6EFRo3MCeG0irkm?si=ME3S1xpyQMytzBNtOI624g" target="_blank" class="spotify">
       <img src="spotify-logo.png" alt="Spotify">
       <span>Spotify</span>
     </a>
+  </div>
 </section>
 
   <section class="track">
@@ -403,6 +413,7 @@
       <img src="spotify-logo.png" alt="Spotify">
       <span>Spotify</span>
     </a>
+  </div>
   </section>
 
   <section class="track">
@@ -428,6 +439,7 @@
       <img src="spotify-logo.png" alt="Spotify">
       <span>Spotify</span>
     </a>
+       </div>
   </section>
 
   <section class="track">
@@ -453,6 +465,7 @@
       <img src="spotify-logo.png" alt="Spotify">
       <span>Spotify</span>
     </a>
+  </div>
   </section>
 
   <section class="track">
@@ -503,6 +516,7 @@
       <img src="spotify-logo.png" alt="Spotify">
       <span>Spotify</span>
     </a>
+    </div>
   </section>
 
   <section class="track">
@@ -528,6 +542,7 @@
       <img src="spotify-logo.png" alt="Spotify">
       <span>Spotify</span>
     </a>
+   </div>
   </section>
 
   <div class="divider"></div>
